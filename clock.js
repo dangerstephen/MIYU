@@ -1,3 +1,7 @@
+// Function that takes in a time of day (an hour and minute) and outputs the angle 
+// between the hour and minute hand of an analog clock at that time.
+// The output can be in degrees or radians.
+
 function angle_between_hour_and_minute_hand(hour, minute) {
   return Math.abs((hour * 30 + minute * 0.5) - (minute * 6))
 }
