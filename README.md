@@ -24,12 +24,18 @@ git clone https://github.com/dangerstephen/MIYU.git
 cd MIYU
 ```
 
-## Running locally 
+## Viewing challenge 1 locally 
 
 ```
 open index.html 
 ```
 This will open the page in your defualt browser
+
+## Testing Challenge 2 locally 
+```
+node clock.js
+```
+This will run the function from your terminal and output the results
 
 
 [MIYU]: http://miyuholdings.com/
